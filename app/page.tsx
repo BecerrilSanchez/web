@@ -21,7 +21,7 @@ export default function Home() {
             </div>
             <div className={styles.heroImage}>
               <Image 
-                src="/images/cctv-installation.jpg" 
+                src="https://amplify-d2vsmhalyqedyt-ma-hospitalstoragebucketbe1-jsq92bxxzczw.s3.us-west-2.amazonaws.com/simi.jpg" 
                 alt="Instalación de cámaras CCTV" 
                 width={600} 
                 height={400}
