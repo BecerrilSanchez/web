@@ -1,12 +1,9 @@
 body {
-    margin: 0;
-    background: linear-gradient(180deg, rgb(117, 81, 194), rgb(255, 255, 255));
-    display: flex;
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    height: 100vh;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
+    margin: 5% 10%;
+    display: 	flex;
+    flex-direction: column;
+    background: #7cafc4;
+    background: linear-gradient(0deg,rgba(124, 175, 196, 1) 0%, rgba(182, 229, 252, 1) 21%, rgba(245, 245, 245, 1) 100%);
   }
   
   main {
