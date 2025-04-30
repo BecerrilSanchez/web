@@ -1,0 +1,144 @@
+/* Estilos generales */
+.mainContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  /* Hero Section */
+  .heroSection {
+    margin-bottom: 4rem;
+  }
+  
+  .heroContent {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .heroText {
+    width: 100%;
+  }
+  
+  .heroText h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+  }
+  
+  .heroText p {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  
+  .heroImage {
+    width: 100%;
+  }
+  
+  /* Services Section */
+  .servicesSection {
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+  
+  .servicesSection h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  
+  .servicesGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .serviceCard {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .serviceCard h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+  
+  .serviceCard p {
+    margin-bottom: 1rem;
+    color: #4a5568;
+  }
+  
+  /* About Section */
+  .aboutSection {
+    background: #f7fafc;
+    padding: 2rem;
+    border-radius: 0.5rem;
+  }
+  
+  .aboutContent {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .aboutText {
+    width: 100%;
+  }
+  
+  .aboutText h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+  
+  .aboutText p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  /* Utilidades */
+  .roundedImage {
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Media Queries para responsividad */
+  @media (min-width: 768px) {
+    .heroContent {
+      flex-direction: row;
+    }
+    
+    .heroText,
+    .heroImage {
+      width: 50%;
+    }
+    
+    .servicesGrid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .aboutContent {
+      flex-direction: row;
+    }
+    
+    .aboutImage {
+      width: 33.333%;
+    }
+    
+    .aboutText {
+      width: 66.666%;
+    }
+    
+    .heroText h1 {
+      font-size: 3rem;
+    }
+  }
