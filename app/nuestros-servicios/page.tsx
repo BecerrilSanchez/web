@@ -69,7 +69,7 @@ const services = [
   {
     title: "Sistemas Residenciales",
     description: "Protección completa para tu hogar con cámaras de alta resolución, visión nocturna y monitoreo remoto desde tu smartphone.",
-    image: "/images/residential-cctv.jpg",
+    image: "https://amplify-d2vsmhalyqedyt-ma-hospitalstoragebucketbe1-jsq92bxxzczw.s3.us-west-2.amazonaws.com/simi.jpg",
     features: [
       "Cámaras HD con visión nocturna",
       "Grabación continua o por detección de movimiento",
@@ -81,7 +81,7 @@ const services = [
   {
     title: "Seguridad Comercial",
     description: "Soluciones empresariales para proteger tu negocio contra robos, fraudes y monitorear operaciones.",
-    image: "/images/commercial-cctv.jpg",
+    image: "https://amplify-d2vsmhalyqedyt-ma-hospitalstoragebucketbe1-jsq92bxxzczw.s3.us-west-2.amazonaws.com/simi.jpg",
     features: [
       "Sistemas escalables para cualquier tamaño de negocio",
       "Cámaras con reconocimiento facial",
@@ -93,7 +93,7 @@ const services = [
   {
     title: "Vigilancia Industrial",
     description: "Sistemas robustos para proteger instalaciones industriales, almacenes y áreas extensas.",
-    image: "/images/industrial-cctv.jpg",
+    image: "https://amplify-d2vsmhalyqedyt-ma-hospitalstoragebucketbe1-jsq92bxxzczw.s3.us-west-2.amazonaws.com/simi.jpg",
     features: [
       "Cámaras resistentes a condiciones extremas",
       "Sistemas anti-vandalismo",
@@ -103,7 +103,6 @@ const services = [
     ]
   }
 ]
-
 const faqs = [
   {
     question: "¿Qué tipo de cámaras recomiendan para una casa?",
