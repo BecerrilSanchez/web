@@ -1,0 +1,53 @@
+/* Estilos generales del header */
+.header {
+    
+  }
+  
+  /* Contenedor principal */
+  .header-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Logo y título */
+  .header-logo {
+
+  }
+  
+  .header-title {
+    font-size: 1.25rem; /* text-xl */
+    font-weight: 700; /* font-bold */
+  }
+  
+  /* Navegación */
+  .header-nav {
+    
+  }
+  
+  @media (min-width: 768px) { /* md:block */
+    .header-nav {
+      
+    }
+  }
+  
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .nav-link {
+  
+  }
+  
+  .nav-link:hover {
+    
+  }
+  
+  /* Botón especial */
+  .nav-button {
+    
+  }
+  
+  .nav-button:hover {
+    
+  }
