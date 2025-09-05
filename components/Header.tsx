@@ -8,7 +8,7 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-2">
           <Image 
             src="/images/security-camera.png" 
-            alt="Logo Seguridad Visual" 
+            alt="Logo Seguridad sasasa Visual" 
             width={40} 
             height={40}
           />
